@@ -1,0 +1,2 @@
+Query tampil data :
+SELECT ju.*, u.*, u.id as idUser, j.* FROM `tb_jab_user` as ju JOIN `tb_user` as u on ju.user_id = u.id JOIN `tb_jabatan` as j on ju.jab_kode = j.kode_jabatan

@@ -1,0 +1,5 @@
+SELECT * FROM tb_user
+UNION
+SELECT * FROM tb_profile
+UNION 
+SELECT *, null as col1 FROM tb_jabatan

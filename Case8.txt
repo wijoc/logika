@@ -1,0 +1,10 @@
+Urutan :
+1. klik menu
+2. masuk ke halaman permainan berisi 3 kolom angka
+3. klik tombol spin
+4. ambil nilai kolom 1,2, 3
+5. percabangan : 
+   - if kol 1 === kol 2 && kol 2 === kol 3 && kol 3 === kol 1
+        reward
+   - else 
+        punishment
