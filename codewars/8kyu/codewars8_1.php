@@ -10,3 +10,5 @@ function boolToWord($bool){
     
     return $bool;
 }
+
+boolToWord(true);
