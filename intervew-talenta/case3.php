@@ -11,7 +11,7 @@ function printPyramid($row){
         // }
         // echo '<br>';
 
-        $stars = str_repeat('*&nbsp;', ($x - 1) * 2);
+        $stars = str_repeat('*&nbsp;', ($x - 1) * 2 + 1);
         $space = str_repeat('&nbsp;', $row - $x);
         echo $space . $stars . '<br/>';
     }
